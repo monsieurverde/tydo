@@ -34,7 +34,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Material Kit React"
+        brand="DOM NOЯTHΞCIDΞ"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -56,9 +56,9 @@ export default function LandingPage(props) {
               </h4>
               <br />
               <Button
-                color="danger"
+                color=""
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                href="https://www.youtube.com/watch?v=dP2tliecwHM"
                 target="_blank"
                 rel="noopener noreferrer"
               >
