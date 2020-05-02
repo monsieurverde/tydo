@@ -29,29 +29,36 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
-          buttonText="Portfolios"
+          buttonText="Portfolio"
           buttonProps={{
             className: classes.navLink,
             color: "transparent"
           }}
           //buttonIcon={Apps}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              Graphic Design
+            <Link to="https://halfsirius.com" className={classes.dropdownLink}>
+              Half Sirius
             </Link>,
             <a
-              href="https://drive.google.com/open?id=1R7B-4EM-sCkrdyTtfdPJTnjcudJaJ2wJ"
+              href="https://fauniversitygalleries.com"
               target="_blank"
               className={classes.dropdownLink}
             >
-              Illustration
+              University Galleries VE
+            </a>,
+            <a
+              href="https://belleit.net"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              Belle IT
             </a>
           ]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://drive.google.com/open?id=1wSF-EqRZspnJf0GrSixT_CA-NpLnp2Cf"
+          href="https://drive.google.com/open?id=1zD6S9fS0yiKWjGCcMVy-UR1g_Uc_FAzd"
           color="transparent"
           target="_blank"
           className={classes.navLink}
@@ -67,7 +74,7 @@ export default function HeaderLinks(props) {
         </Tooltip>*/}
         <Tooltip
           id="instagram-twitter"
-          title="Follow us on twitter"
+          title=""
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
@@ -85,7 +92,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-tooltip"
-          title="Follow us on instagram"
+          title=""
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >

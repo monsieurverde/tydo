@@ -32,7 +32,7 @@ export default function LandingPage(props) {
   return (
     <div>
       <Header
-        color="transparent"
+        color="blue"
         routes={dashboardRoutes}
         brand="DOM NOЯTHΞCIDΞ"
         rightLinks={<HeaderLinks />}
@@ -70,8 +70,7 @@ export default function LandingPage(props) {
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <div className={classes.container}>
-          <ProductSection />
+        <div className={classes.container}>\ 
           <TeamSection />
           <WorkSection />
         </div>

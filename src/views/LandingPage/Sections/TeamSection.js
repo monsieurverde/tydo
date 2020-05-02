@@ -31,7 +31,6 @@ export default function TeamSection() {
   );
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>...</h2>
       <div>
         <GridContainer>
 
@@ -51,23 +50,12 @@ export default function TeamSection() {
                 <br />
                 <small className={classes.smallTitle}>Designer</small>
               </h4>
-              <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                Born in Providence, Rhode Island (U.S.A.) in 1996, Dominique Northecide is a full-stack developer and designer. After earning a BFA with a concentration in Graphic Design from Florida Atlantic University in Boca Raton. The things he has seen and felt in his young lifetime have shaped the way he captures the world. With this, he is able to bring a new age perspective to the crowds that identify with his work. His designs derive from a spirit of expression. He is methodical about the moods and aesthetic of his work. Northecide aims to highlight important topics such as sustainability and renewable resources, as well as spark interest/shed light to the various design opportunities in the STEM fields.
                 </p>
-              </CardBody>
+              
               <CardFooter className={classes.justifyCenter}>
                 
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
 
                 <Button
                   justIcon
@@ -76,13 +64,7 @@ export default function TeamSection() {
                 >
                   <i className={classes.socials + " fab fa-instagram"} />
                 </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
+                
               </CardFooter>
             </Card>
           </GridItem>

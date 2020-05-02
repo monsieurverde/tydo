@@ -37,7 +37,7 @@ export default function SectionNavbars() {
             </div>
             <Header
               brand="Menu"
-              color="primary"
+              color="blue"
               leftLinks={
                 <List className={classes.list}>
                   <ListItem className={classes.listItem}>
